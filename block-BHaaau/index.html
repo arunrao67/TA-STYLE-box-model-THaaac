@@ -1,0 +1,91 @@
+<!---
+### Create a page according to the layout shown below
+
+![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
+
+#### Problems for exercise 2 in the layout
+
+- Each parent container has width of 600px and border of 1px;
+- Each children box has width 180px and height 100px as well as margin of 10px;
+- Each child box which is having border has border-width 1px.
+- Note in the first container the boxes do not have any border.
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+---> ANSWER GIVE BELOW :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header> 
+        <h1> The Box Model,   Box - sizing  &   Box - <br>
+            shadow </h1>
+    </header> 
+    <hr>
+    <br>
+    <br>
+    
+        <h2> Exercise1</h2>
+         <main>
+             <section>
+                <div class="box"> </div>
+             <footer>
+                 <nav> content padding margin border </nav>
+             </footer>   
+                
+            </section>
+            <hr>
+            <br>
+            <br>
+            
+                
+         <h3> Exercise2 </h3> 
+         <br>
+         
+            <p> no border on these boxes.</p>
+            <section class="ex-two">
+            <div class=" box small-two"></div>
+            <div class=" box small-two"></div>
+            <div class=" box small-two"></div>
+
+         </section>
+         <hr>
+         <br>
+         <br>
+         
+
+           <p> 1px border on these boxes</p>
+           <section class="ex-three">
+            <div class=" box small-three"></div>
+            <div class=" box small-three"></div>
+            <div class=" box small-three"></div>
+
+           </section>
+           <hr>
+          <br>
+          <br>
+          
+          
+
+          <p> 1px border on these boxes but they are in same line</p>
+          <section class="ex-four">
+            <div class=" box small-four"></div>
+            <div class=" box small-four"></div>
+            <div class=" box small-four"></div>
+
+
+          </section>
+
+         </main>
+        
+    
+</body>
+</html>
